@@ -6,19 +6,26 @@
 }
 body
 {
-    background-color: #222;
-
+    background-color: 	#28282B;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+    height: 100vh;
 }
 .card
 {
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg,#00feba , #5b548a);
+    background: rgb(128,128,128);
     color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
+    
 }
 
 .search
@@ -107,4 +114,36 @@ body
 }
 .weather{
     display: none;
+}
+
+.left
+{
+    width: 50%;
+    margin-left: 7%;
+}
+
+.main_heading
+{
+   font-size: 5rem;
+   font-weight: 200 ;
+}
+
+.hover:hover
+{
+    background-color: antiquewhite;
+}
+.brief
+{
+    font-weight: 500 ;
+    text-decoration: underline;
+}
+.div_img
+{
+    max-width: auto;
+    height: auto;
+
+}
+.div-con
+{
+    height: 30%;
 }
